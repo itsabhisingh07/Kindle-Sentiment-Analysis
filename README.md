@@ -19,7 +19,7 @@ The sentiment analysis model is built using a supervised machine learning approa
   4. **Lemmatization:** Reducing words to their base form (e.g., "running" -> "run") using WordNetLemmatizer.
 
 ## Demo
-![Home Page](positive.png) 
+![Home Page](Positive.png) 
 ![Prediction page](Negative.png) 
 
 ##  Project Structure
