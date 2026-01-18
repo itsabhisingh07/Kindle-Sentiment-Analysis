@@ -46,7 +46,7 @@ Kindle_Sentiment_App/
 Open your terminal and run:
 
 ```bash
-git clone [https://github.com/YOUR_USERNAME/Kindle-Sentiment-App.git](https://github.com/YOUR_USERNAME/Kindle-Sentiment-App.git)
+git clone [https://github.com/itsabhisingh07/Kindle-Sentiment-App.git](https://github.com/itsabhisingh07/Kindle-Sentiment-App.git)
 cd Kindle-Sentiment-App
 ```
 ## Install Dependencies
