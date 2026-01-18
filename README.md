@@ -18,6 +18,10 @@ The sentiment analysis model is built using a supervised machine learning approa
   3. **Stopword Removal:** Filtering out common English words (e.g., "the", "is") using NLTK.
   4. **Lemmatization:** Reducing words to their base form (e.g., "running" -> "run") using WordNetLemmatizer.
 
+## Demo
+![Home Page](positive.png) 
+![Prediction page](Negative.png) 
+
 ##  Project Structure
 ```text
 Kindle_Sentiment_App/
