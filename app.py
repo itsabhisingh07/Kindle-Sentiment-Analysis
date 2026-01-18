@@ -52,16 +52,23 @@ def predict():
         
         vectorized_review = vectorizer.transform([cleaned_review]).toarray()
         
+    
+        probabilities = model.predict_proba(vectorized_review)[0]
+        positive_confidence = probabilities[1] 
         
-        prediction = model.predict(vectorized_review)
+        threshold = 0.90  
         
-
-        if prediction[0] == 1:
+        if positive_confidence > threshold:
             sentiment = "Positive "
             css_class = "positive"
         else:
             sentiment = "Negative "
             css_class = "negative"
+            
+        
+        print(f"Review: {review[:30]}... | Confidence: {positive_confidence:.2f}")
+
+      
             
         return render_template('index.html', prediction=sentiment, original_text=review, css_class=css_class)
 
