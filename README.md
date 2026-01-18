@@ -5,6 +5,8 @@ A Machine Learning web application that predicts the sentiment of book reviews (
 ##  Overview
 - **Input:** A user enters a text review (e.g., "The plot was amazing but the characters were dull.").
 - **Process:** The app cleans the text (removes stopwords, lemmatization), converts it to numbers using TF-IDF, and feeds it to the model.
+- **Confidence Scoring:** unlike standard models that guess based on 50% probability, this system calculates a confidence score and only predicts "Positive" if
+  the certainty exceeds a strict threshold (90%), reducing false positives.
 - **Output:** The model predicts whether the sentiment is **Positive**  or **Negative** .
 
 ##  Model Details
