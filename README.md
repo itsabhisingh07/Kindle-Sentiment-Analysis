@@ -32,22 +32,23 @@ Kindle_Sentiment_App/
 │
 └── templates/
     └── index.html          # HTML Interface
-
+```
 
 ##  How to Run Locally
 
-### 1. Clone the Repository
+## . Clone the Repository
 Open your terminal and run:
 
 ```bash
 git clone [https://github.com/YOUR_USERNAME/Kindle-Sentiment-App.git](https://github.com/YOUR_USERNAME/Kindle-Sentiment-App.git)
 cd Kindle-Sentiment-App
-
+```
 ## Install Dependencies
 
 ```bash
 !pip install -r requirements.txt
 ```
+## RUN
 ```bash
 python app.py
 ```
